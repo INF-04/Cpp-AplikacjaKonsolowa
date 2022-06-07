@@ -22,6 +22,9 @@ class Sortowanie {
 
       for(int i : tablica)
         std::cout<<i<<std::endl;
+
+      std::cout<<"Najwieksza liczba z tablicy:";
+      std::cout<<getHighest(tablica);
     }
 
   private:
@@ -42,6 +45,10 @@ class Sortowanie {
       }
       return tablica;
     }
+    
+  int getHighest(int tablica[]) {
+    return tablica[0];
+  }
 
 };
 
